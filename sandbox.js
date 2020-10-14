@@ -38,15 +38,18 @@ var databaseBoolean = [
 'francesco.savignano96@gmail.com',
 'robertasciortino.ag@gmail.com'];
 
-// console.log(databaseBoolean);
-// console.log(databaseBoolean[0]);
+var userEmail = prompt('Please insert your email');
 
-var userEmail = prompt('Please insert your Email');
-
+var userRegistered = 0;
 for (var i = 0; i < databaseBoolean.length; i++) {
     if (userEmail == databaseBoolean[i]) {
-        console.log('User already Registered');
-    } else {
-        console.log('Sorry, user not found.');
+        userRegistered = 1;
     }
+}
+// console.log(userRegistered);
+
+if (userRegistered == 1) {
+    document.getElementById('output').innerHTML = 'User Registered';
+} else {
+    document.getElementById('output').innerHTML = 'User Not Found';
 }
