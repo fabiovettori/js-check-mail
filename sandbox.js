@@ -4,39 +4,11 @@
 // Comunicare quindi un messaggio appropriato (sei in lista/non sei in lista)
 
 var databaseBoolean = [
-'fraancesco.bello@gmail.com',
-'thebertsinfo@gmail.com',
-'nforgemark609@gmail.com',
-'caudek.jacopo@gmail.com',
-'rocco.chiarella.rc@gmail.com',
-'fabio.vettori.ing@gmail.com',
-'marco.chianese93@gmail.com',
-'crimi.patrizia@gmail.com',
-'sabrinacunsolo85@gmail.com',
-'fd060862@gmail.com',
-'debiasealba@gmail.com',
-'annalisadesantis770@gmail.com',
-'detaddeo.d@gmail.com',
-'manuel.altaclass@gmail.com',
-'danilodegortes@gmail.com',
-'giacomo.1936@gmail.com',
-'francesconliner95@gmail.com',
-'alessandrochb@gmail.com',
-'maurizio.faedda1@gmail.com',
-'valerio.farina.1994@gmail.com',
-'carmelo.ferraro991@gmail.com',
-'alefurio93@gmail.com',
-'emphigie10@gmail.com',
-'mark.88g@gmail.com',
-'lombardo.stanislao94@gmail.com',
-'magrolorenzo@gmail.com',
-'manfredi.marrone@gmail.com',
-'ivan.mincione92@gmail.com',
-'99m.daoud@gmail.com',
-'valenovarino@gmail.com',
-'carminepepiciello@gmail.com',
-'francesco.savignano96@gmail.com',
-'robertasciortino.ag@gmail.com'];
+'francesco.green@gmail.com',
+'rocco.blue@gmail.com',
+'fabio.white@gmail.com',
+'marco.red@gmail.com',
+'patrizia.brown@gmail.com'];
 
 var userEmail = prompt('Please insert your email');
 
